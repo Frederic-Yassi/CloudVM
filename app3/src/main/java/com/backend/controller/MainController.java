@@ -15,7 +15,7 @@ public class MainController {
     @GetMapping("/")
     public String testApi() {
         logger.debug("Test de connexion à l'API ");
-        return "Server 2 !";
+        return "Server 3 !";
     }
 
     @PostMapping(path="/api/addfile", consumes= "application/json")
