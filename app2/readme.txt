@@ -1,5 +1,5 @@
 Pour lancer ce container :
 
-sudo build -t app2 .
+sudo docker build -t app2 .
 
-sudo run -dit --name -p 8083:8083 app2
+sudo docker run -dit -p 80:8082 app2
