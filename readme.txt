@@ -1,3 +1,3 @@
 sudo docker build -t load .
 
-sudo docker run -dit -p 8090:80 load
+sudo docker run -dit -p 80:80 load
